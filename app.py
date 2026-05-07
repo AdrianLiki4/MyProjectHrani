@@ -64,8 +64,8 @@ if uploaded_file is not None:
     current_db = harmful_ingredients["bg"] if lang == "BG" else harmful_ingredients["en"]
     
   for key description in current_db.items():
-        if key in full_text:
-            st.error(f"⚠️ **{key}**: {description}")
+    if key in full_text:
+    st.error(f"⚠️ **{key}**: {description}")
             found_any = True
             
     if not found_any:
