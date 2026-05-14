@@ -7,12 +7,20 @@ st.set_page_config(page_title="Food Scanner AI", page_icon="🥗")
 
 harmful_ingredients = {
     "BG": {
-        "E621": "Натриев глутамат", "E407": "Карагенан", "E250": "Натриев нитрит",
-        "ПАЛМОВО МАСЛО": "Палмово масло", "ХИДРОГЕНИРАНИ": "Трансмазнини"
+        "E621": "Натриев глутамат (MSG) - Може да причини главоболие и алергии.",
+        "E407": "Карагенан - Свързва се с възпаления на червата.",
+        "E250": "Натриев нитрит - Потенциален канцероген в колбасите.",
+        "E951": "Аспартам - Изкуствен подсладител.",
+        "ПАЛМОВО МАСЛО": "Високо съдържание на наситени мазнини.",
+        "ХИДРОГЕНИРАНИ": "Трансмазнини - Вредни за сърцето."
     },
     "EN": {
-        "E621": "MSG", "E407": "Carrageenan", "E250": "Sodium Nitrite",
-        "PALM OIL": "Palm Oil", "HYDROGENATED": "Trans fats"
+        "E621": "Monosodium Glutamate (MSG) - May cause headaches.",
+        "E407": "Carrageenan - Linked to digestive inflammation.",
+        "E250": "Sodium Nitrite - Potential carcinogen.",
+        "E951": "Aspartame - Artificial sweetener.",
+        "PALM OIL": "High in saturated fats.",
+        "HYDROGENATED": "Trans fats - Bad for heart health."
     }
 }
 
