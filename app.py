@@ -13,6 +13,7 @@ harmful_ingredients = {
         "E951": "Аспартам - Изкуствен подсладител.",
         "ПАЛМОВО МАСЛО": "Високо съдържание на наситени мазнини.",
         "ХИДРОГЕНИРАНИ": "Трансмазнини - Вредни за сърцето."
+        "E471": "Моно- и диглицериди на мастни киселини - Емулгатор."
     },
     "EN": {
         "E621": "Monosodium Glutamate (MSG) - May cause headaches.",
@@ -21,6 +22,7 @@ harmful_ingredients = {
         "E951": "Aspartame - Artificial sweetener.",
         "PALM OIL": "High in saturated fats.",
         "HYDROGENATED": "Trans fats - Bad for heart health."
+        "E471": "Mono- and diglycerides of fatty acids - emulsifier."
     }
 }
 
